@@ -32,7 +32,7 @@ Certifique-se de ter as seguintes bibliotecas instaladas:
 Você pode instalar as dependências usando o seguinte comando:
 
 ```bash
-    pip install matplotlib numpy´
+pip install matplotlib numpy
 ```
 
 ## Contribuição
