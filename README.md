@@ -8,6 +8,8 @@ Este projeto consiste em uma aplicação em Python para analisar o desempenho de
 - **Merge Sort:** Implementação do algoritmo de ordenação Merge Sort.
 - **Counting Sort:** Implementação do algoritmo de ordenação Counting Sort.
 - **Radix Sort:** Implementação do algoritmo de ordenação Radix Sort.
+- **Bucket Sort:** Implementação do algoritmo de ordenação Bucket Sort.
+- **Heap Sort:** Implementação do algoritmo de ordenação Heap Sort.
 - **Análise de Desempenho:** Geração de dados sobre o tempo de execução de cada algoritmo para diferentes tamanhos de entrada.
 - **Visualização Gráfica:** Apresentação dos dados em um gráfico para facilitar a comparação do desempenho dos algoritmos.
 
