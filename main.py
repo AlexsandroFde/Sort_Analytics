@@ -3,15 +3,17 @@ from graphys.generate_graphs import tamanhos, tempo
 
 def main():
     plt.figure(figsize=(10, 10))
-    plt.plot(tamanhos, tempo[0], label='Quick')
-    plt.plot(tamanhos, tempo[1], label='Merge')
-    plt.plot(tamanhos, tempo[2], label='Counting')
-    plt.plot(tamanhos, tempo[3], label='Radix')
-    plt.plot(tamanhos, tempo[4], label='Bucket')
-    plt.plot(tamanhos, tempo[5], label='Heap')
+
+    cores = ['blue', 'orange', 'green', 'red', 'purple', 'brown']
+    marcadores = ['o', 's', '^', 'D', 'P', 'X']
+
+    for _, (t, l, c, m) in enumerate(zip(tempo, ['Quick', 'Merge', 'Counting', 'Radix', 'Bucket', 'Heap'], cores, marcadores)):
+        plt.plot(tamanhos, t, label=l, color=c, marker=m)
+
     plt.legend(loc='upper left')
     plt.xlabel('Tamanho da lista')
     plt.ylabel('Segundos')
+    plt.grid(True)
     plt.show()
 
 if __name__ == "__main__":
