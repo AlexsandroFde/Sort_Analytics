@@ -4,12 +4,12 @@ from algorithms.merge_sort import merge_sort
 from algorithms.counting_sort import counting_sort
 from algorithms.radix_sort import radix_sort
 from algorithms.bucket_sort import bucket_sort
+from algorithms.heap_sort import heap_sort
 from graphys.loading import loading, done_loading
 
-tempo1, tempo2, tempo3, tempo4, tempo5 = [], [], [], [], []
-tempo = [tempo1, tempo2, tempo3, tempo4, tempo5]
+tempo = [[] for _ in range(6)]
 tamanhos = np.arange(10000, 100001, 5000)
-funcoes = [quick_sort, merge_sort, counting_sort, radix_sort, bucket_sort]
+funcoes = [quick_sort, merge_sort, counting_sort, radix_sort, bucket_sort, heap_sort]
 
 loading_thread = threading.Thread(target=loading)
 loading_thread.start()
