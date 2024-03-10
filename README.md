@@ -1,6 +1,6 @@
 # Aplicação de Análise de Desempenho de Algoritmos de Ordenação
 
-Este projeto consiste em uma aplicação em Python para analisar o desempenho de diferentes algoritmos de ordenação, incluindo Quick Sort, Merge Sort, Counting Sort e Radix Sort. A aplicação gera dados sobre o tempo de execução de cada algoritmo para diferentes tamanhos de entrada e os visualiza em um gráfico para facilitar a comparação.
+Este projeto consiste em uma aplicação em Python para analisar o desempenho de diferentes algoritmos de ordenação, incluindo Quick Sort, Merge Sort, Counting Sort, Radix Sort, Bucket Sort e Heap Sort. A aplicação gera dados sobre o tempo de execução de cada algoritmo para diferentes tamanhos de entrada e os visualiza em um gráfico para facilitar a comparação.
 
 ## Funcionalidades Principais
 
